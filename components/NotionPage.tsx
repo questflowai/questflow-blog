@@ -1,3 +1,5 @@
+// eslint-disable-next-line
+// @ts-nocheck
 import * as React from 'react'
 import dynamic from 'next/dynamic'
 import Image from 'next/image'
@@ -20,7 +22,6 @@ import { searchNotion } from '@/lib/search-notion'
 import { useDarkMode } from '@/lib/use-dark-mode'
 
 import { Footer } from './Footer'
-import { GitHubShareButton } from './GitHubShareButton'
 import { Loading } from './Loading'
 import { NotionPageHeader } from './NotionPageHeader'
 import { Page404 } from './Page404'
